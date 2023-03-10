@@ -1,0 +1,36 @@
+body {
+    background-color: antiquewhite;
+}
+
+.main-header {
+    text-align: center;
+    background-color: aliceblue;
+    border-style: ridge;
+}
+
+.categories-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+}
+
+.category-item {
+    padding: 10px;
+}
+
+.category-item:hover {
+    background-color: azure;
+}
+
+.category-item a {
+    text-decoration: none;
+    color: brown;
+}
+
+.category-item a.active {
+    color: mediumvioletred;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
